@@ -1,8 +1,12 @@
 {
   "name": "sample-nestjs",
   "version": "0.0.1",
-  "description": "",
+  "description": "this is my practice for nestjs like mysql, logging, docker, typeorm, jest and so on.",
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirobeem/nestjs-practice.git"
+  },
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -25,10 +29,12 @@
     "@nestjs/platform-express": "^6.7.2",
     "@nestjs/typeorm": "^6.3.1",
     "mysql": "^2.18.1",
+    "nest-winston": "^1.3.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
-    "typeorm": "^0.2.22"
+    "typeorm": "^0.2.22",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^6.14.2",
